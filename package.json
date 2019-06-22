@@ -1,0 +1,19 @@
+{
+  "name": "@filtu/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint basic configuration",
+  "author": "Ilia Liachin <seelts@gmail.com>",
+  "license": "Unlicense",
+  "private": false,
+  "main": "src/",
+  "files": [],
+  "devDependencies": {
+    "@filtu/prettier-config": "^1.0.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0"
+  },
+  "prettier": "@filtu/prettier-config"
+}
